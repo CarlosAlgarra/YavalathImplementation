@@ -1,0 +1,134 @@
+h1
+{
+
+	text-align: center;
+	font-size: 50px;
+}
+
+#board-size
+{
+
+ 	height: 700px;
+ 	width: 700px;
+ 	border:solid;
+
+
+
+}
+
+.board
+{
+	background-image: url(yavalath.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+ 	width: 700px;
+ 	/*border:solid;*/
+	margin-left: 500px;
+    margin-top: 100px;
+}
+
+.button
+{
+background-color:green;
+color: white;
+text-align: center;
+font-size: 20px;
+width: auto;
+height: auto;
+margin: 10px;
+
+}
+
+span.spot
+{
+    position: absolute;
+    width: 70px;
+    height: 50px; 
+    background-color:none; 
+    display:block;
+
+}
+
+span.piecesWhite
+{
+	width: 57px;
+	height: 57px;
+	display: block;
+	margin-left: 7px;
+	margin-top: -4px;
+	background-position:center;
+	background-color: white;
+	border-radius: 100%
+
+}
+
+span.piecesBlack
+{
+	width: 57px;
+	height: 57px;
+	display: block;
+	margin-left: 7px;
+	margin-top: -4px;
+	background-position:center;
+	background-color: black;
+	border-radius: 100%
+
+}
+
+span.piecesGrey
+{
+	width: 57px;
+	height: 57px;
+	display: block;
+	margin-left: 7px;
+	margin-top: -4px;
+	background-position:center;
+	background-color: grey;
+	border-radius: 100%
+
+}
+
+span.piecesHover:hover, span.piecesHover:active
+{
+    width: 57px;
+	height: 57px;
+	display: block;
+	background-position:center;
+	border:solid;
+	border-radius:100%;
+	opacity: 0.5;
+
+}
+
+
+#A1,#B1,#C1,#D1,#E1 {margin-top:35px; position: absolute;}
+#A2,#B2,#C2,#D2,#E2,#F2 {margin-top:100px;}
+#A3,#B3,#C3,#D3,#E3,#F3,#G3 {margin-top:170px;}
+#A4,#B4,#C4,#D4,#E4,#F4,#G4,#H4 {margin-top:235px;}
+#A5,#B5,#C5,#D5,#E5,#F5,#G5,#H5,#I5 {margin-top:300px;}
+#A6,#B6,#C6,#D6,#E6,#F6,#G6,#H6 {margin-top:365px;}
+#A7,#B7,#C7,#D7,#E7,#F7,#G7 {margin-top:430px;}
+#A8,#B8,#C8,#D8,#E8,#F8 {margin-top:497px;}
+#A9,#B9,#C9,#D9,#E9 {margin-top:565px;}
+
+
+#A5 {margin-left: 20PX}
+#A4,#A6 {margin-left: 55px}
+#B5,#A3,#A7 { margin-left: 95PX }
+#A2,#B4,#B6,#A8 { margin-left: 132px }
+#A1,#B3,#C5,#B7,#A9 { margin-left: 170px;}
+#B2,#C4,#C6,#B8 { margin-left: 207px }
+#B1,#C3,#D5,#C7,#B9 { margin-left:245px}
+#C2,#D4,#D6,#C8 { margin-left: 283px }
+#C1,#D3,#E5,#D7,#C9 { margin-left:322px}
+#D2,#E4,#E6,#D8 { margin-left: 358px }
+#C1,#D3,#E5,#D7,#C9 { margin-left:322px}
+#E2,#F4,#F6,#E8 { margin-left: 435px }
+#D1,#E3,#F5,#E7,#D9 { margin-left:398px}
+#F2,#G4,#G6,#F8 { margin-left: 512px }
+#E1,#F3,#G5,#F7,#E9 { margin-left:475px}
+#G3,#H5,#G7 { margin-left: 550px }
+#H4,#H6 {margin-left: 590px}
+#I5 {margin-left: 625PX}
+
